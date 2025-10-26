@@ -1,3 +1,5 @@
-# React + TypeScript + Vite
+# Film-TV-Database-Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A project to build a database for films and TV shows.  
+
+This project uses React, TypeScript, and Vite for a fast and modern frontend setup, with ESLint rules for clean code.  
