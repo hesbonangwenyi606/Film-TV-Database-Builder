@@ -27,8 +27,8 @@ A web application to build and manage a database of films and TV shows. This pro
 ## Tech Stack
 
 - **Frontend:** React, TypeScript, Vite  
-- **Backend:** (Specify your backend if any, e.g., Node.js, Python Flask)  
-- **Database:** (Specify, e.g., SQLite, PostgreSQL, MongoDB)  
+- **Backend:**  Node.js, Python Flask  
+- **Database:** SQLite, PostgreSQL, MongoDB
 - **Tools:** ESLint, Git, GitHub  
 
 ---
