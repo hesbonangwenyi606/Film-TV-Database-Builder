@@ -1,0 +1,16 @@
+import { Content } from './contentData';
+
+const u = ["https://d64gsuwffb70l.cloudfront.net/68fd9f39e2910efa48cab590_1761451897501_9fe6110f.webp","https://d64gsuwffb70l.cloudfront.net/68fd9f39e2910efa48cab590_1761451899203_c3bd9bfe.webp","https://d64gsuwffb70l.cloudfront.net/68fd9f39e2910efa48cab590_1761451900937_3f66105d.webp","https://d64gsuwffb70l.cloudfront.net/68fd9f39e2910efa48cab590_1761451902628_b9ef5db0.webp","https://d64gsuwffb70l.cloudfront.net/68fd9f39e2910efa48cab590_1761451918070_25b0ecd6.webp","https://d64gsuwffb70l.cloudfront.net/68fd9f39e2910efa48cab590_1761451919795_e0ad13a6.webp","https://d64gsuwffb70l.cloudfront.net/68fd9f39e2910efa48cab590_1761451921509_6c126836.webp","https://d64gsuwffb70l.cloudfront.net/68fd9f39e2910efa48cab590_1761451923547_e047b8ac.webp","https://d64gsuwffb70l.cloudfront.net/68fd9f39e2910efa48cab590_1761451925288_632bab4d.webp","https://d64gsuwffb70l.cloudfront.net/68fd9f39e2910efa48cab590_1761451929522_88b5f29b.webp","https://d64gsuwffb70l.cloudfront.net/68fd9f39e2910efa48cab590_1761451931242_eb453c94.webp","https://d64gsuwffb70l.cloudfront.net/68fd9f39e2910efa48cab590_1761451932933_ea213e43.webp","https://d64gsuwffb70l.cloudfront.net/68fd9f39e2910efa48cab590_1761451934637_7934b565.webp","https://d64gsuwffb70l.cloudfront.net/68fd9f39e2910efa48cab590_1761451936360_1dfa7886.webp","https://d64gsuwffb70l.cloudfront.net/68fd9f39e2910efa48cab590_1761451938137_27ece997.webp"];
+
+const r=(a:string,rt:number,t:string)=>({id:Math.random(),author:a,rating:rt,text:t,date:"2024-10-01"});
+
+export const moreContent: Content[] = [
+{id:9,title:"Wedding Crashers",type:"TV" as const,genre:["Comedy"],year:2024,rating:4.2,runtime:"30min",poster:u[0],description:"Comedy chaos",director:"P.Lee",cast:["J.Smith"],reviews:[r("Laugh",4,"Funny")]},
+{id:10,title:"Happy Days",type:"Movie" as const,genre:["Comedy","Drama"],year:2023,rating:4.5,runtime:"112min",poster:u[1],description:"Feel-good story",director:"M.Davis",cast:["R.Green"],reviews:[r("Joy",5,"Uplifting")]},
+{id:11,title:"Forever Yours",type:"Movie" as const,genre:["Romance"],year:2024,rating:4.3,runtime:"108min",poster:u[2],description:"Epic love story",director:"L.Martinez",cast:["C.Blue"],reviews:[r("Heart",4,"Beautiful")]},
+{id:12,title:"Date Night",type:"TV" as const,genre:["Comedy","Romance"],year:2023,rating:4.1,runtime:"25min",poster:u[3],description:"Dating mishaps",director:"K.Wilson",cast:["N.Red"],reviews:[r("Rom",4,"Charming")]},
+{id:13,title:"Galactic Wars",type:"Movie" as const,genre:["Sci-Fi","Action"],year:2024,rating:4.8,runtime:"155min",poster:u[4],description:"Space battles",director:"G.Lucas",cast:["H.Ford"],reviews:[r("Space",5,"Epic!")]},
+{id:14,title:"Future World",type:"TV" as const,genre:["Sci-Fi","Drama"],year:2024,rating:4.6,runtime:"50min",poster:u[5],description:"Dystopian future",director:"R.Scott",cast:["E.Stone"],reviews:[r("Sci",5,"Brilliant")]},
+{id:15,title:"Quantum Leap",type:"Movie" as const,genre:["Sci-Fi"],year:2023,rating:4.4,runtime:"132min",poster:u[6],description:"Time travel",director:"C.Nolan",cast:["M.Caine"],reviews:[r("Time",4,"Complex")]},
+{id:16,title:"Star Voyager",type:"TV" as const,genre:["Sci-Fi","Adventure"],year:2024,rating:4.7,runtime:"45min",poster:u[7],description:"Space exploration",director:"J.Abrams",cast:["Z.Quinto"],reviews:[r("Trek",5,"Amazing")]},
+];
